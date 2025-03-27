@@ -1,7 +1,7 @@
 {
     "name": "aplikacja pogodowa",
     "short_name": "PogodaApp",
-    "theme_color": "#2196f3",
+    "theme_color": "##21cdf3",
     "background_color": "#2196f3",
     "display": "fullscreen",
     "orientation": "portrait",
