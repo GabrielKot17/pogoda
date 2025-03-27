@@ -1,0 +1,17 @@
+{
+    "name": "aplikacja pogodowa",
+    "short_name": "PogodaApp",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "//pogoda/",
+    "icons": [
+        {
+            "src":"./img/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+  }
