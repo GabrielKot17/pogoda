@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aplikacja pogodowa</title>
+</head>
+<body>
+    <header>
+        <h1>aplikacja pogodowa</h1>
+    </header>
+    <main>
+        <section class = "search">
+            <input type="text" placeholder="podaj nazwę miasta">
+            <button>Sprawdź pogodę</button> 
+            <p class = "error_message"></p>
+            
+        </section>
+        <section class="weather_top">
+            <h2 class="city_name"></h2>
+            <div>
+                <img src="" alt="" class="weather_img">
+                <P class = "temp"></P>
+            </div>
+            <P class = "description"></P>
+        </section>
+        <section></section>
+        <section class = "weather_bottom">
+            <p>Temperatura odczuwalna: <span class= "feels_like"></span></p>
+            <p>Ciśnienie: <span class = "pressuer"></span></p>
+            <P>wilgotność: <span class ="humidity"></span></P>
+            <P>Prędkość wiatru: <span class= "wind_speed"></span> </P>
+            <P>Zachmurzenie: <span class= "clouds"></span> </P>
+            <P>Widoczność: <span class ="visibility"></span></P>
+        </section>
+        <section>
+            <h3>Zanieczyszczenie powietrza</h3>
+            <div>
+                <img src="./7304531_pm2.5_dust_pollution_smog_dangerous_icon.png" alt="" class="pollution_img">
+                <span class="pollution_value"></span>
+                <span>&micro;g/m<sup>3</sup></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Projekt wsb merito gdańsk 2025</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+    <script>src="./sw.js"</script>
+</body>
+</html>
